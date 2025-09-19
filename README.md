@@ -32,9 +32,6 @@ I walk through a full, single notebook workflow: **preprocessing → EDA → mod
 - **Overfitting check:** Train vs Test R² across polynomial degrees
 - **Ridge curve:** Test R² vs α (log scale)
 - **Categorical heatmap:** Cooling Load by Orientation × Glazing Distribution
-
-> See them in: `reports/energy_efficiency.html` and `reports/figures/`.
-
 ---
 
 ## 🧠 Takeaways
@@ -44,6 +41,7 @@ I walk through a full, single notebook workflow: **preprocessing → EDA → mod
 - **Polynomial features (deg=2)** dramatically improve in-sample fit; use regularization and validation to keep generalization in check.
 
 ---
+
 
 
 
