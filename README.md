@@ -46,17 +46,3 @@ I walk through a full, single notebook workflow: **preprocessing → EDA → mod
 - **Polynomial features (deg=2)** dramatically improve in-sample fit; use regularization and validation to keep generalization in check.
 
 ---
-
-## 🚀 Reproduce Locally
-
-```bash
-# (optional) create a venv
-python -m venv .venv
-# Win: .venv\Scripts\activate
-source .venv/bin/activate
-
-# install deps
-pip install -r requirements.txt
-
-# launch notebook
-jupyter notebook
