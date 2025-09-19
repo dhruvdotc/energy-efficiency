@@ -7,7 +7,6 @@ I walk through a full, single notebook workflow: **preprocessing → EDA → mod
 ---
 
 ## 👀 Quick Links
-- **Notebook:** `notebooks/energy_efficiency.ipynb`
 - **HTML report:** `reports/dataanalysis.html`
   You may view this directly through the link: https://dhruvdotc.github.io/energy-efficiency/dataanalysis.html
 - **Figures:** `reports/figures/` (correlations, residuals, actual vs predicted)
@@ -47,4 +46,5 @@ I walk through a full, single notebook workflow: **preprocessing → EDA → mod
 - **Polynomial features (deg=2)** dramatically improve in-sample fit; use regularization and validation to keep generalization in check.
 
 ---
+
 
